@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Light'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+    src: local('Spoqa Han Sans Thin'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.ttf') format('truetype');
+}
+
+   @font-face {
+    font-family: 'twayair';
+    src: url('/portfolio/intro/font/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{font-family: 'twayair';}
+.section{min-height: 100vh;padding: 80px 0;box-sizing: border-box;}
+.section h2{text-align: center;}
+.topBtn{position: fixed;right: 0;bottom: 0;width: 50px;height: 50px;background-color: violet;color: white;transform: translateX(100%);transition: 0.5s;}
+
+#hd{position: fixed;left: 0;right: 0;top: 0;z-index: 100000;
+background-color: white;transition: 0.5s;}
+#hd h1 img{width: 80px;}
+#hd a{font-family: 'Spoqa Han Sans';}
+#hd li.on a{color: white;}
+
+#interview i{font-family: xeicon;}
+#interview dt{border-bottom: 1px solid #222;
+    border-top: 2px solid #222;
+    padding: 0 1rem;font-size: 1.2rem;line-height: 1.5rem;}
+#interview dd{padding: 2rem;background-color: #ccc;line-height: 1.2rem;display: none;}
+
+#interview dt.on+dd{display: block;}
+
+.xi-angle-up{float: right;}
+#interview dt.on .xi-angle-up:before{content: '\e941';}
+/*  */
+
+
+/*스크롤 내렸을때의 변화가 생기는 객체들*/
+.scroll #hd{background-color: rgba(0, 0, 0, .5);}
+.scroll .topBtn{transform: translateX(0);}
+
+
+
+
+

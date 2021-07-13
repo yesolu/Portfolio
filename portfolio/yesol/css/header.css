@@ -1,0 +1,47 @@
+/* default */
+.inner{ max-width:1400px; margin:0 auto}
+
+/* 플룻해제 */
+.clearfix::after{content: '';display: block;clear: both;}
+
+
+/* header */
+
+#hd{position: fixed;left: 0;right: 0;top: 0;z-index: 100000;
+    background-color: white;transition: 0.5s;}
+    #hd h1 img{width: 80px;}
+    #hd a{font-family: 'twayair';color: #372560;text-decoration: none;}
+    #hd li.on a{color: #222;}
+
+
+
+/* section */
+.section{font-family: 'Spoqa Han Sans';}
+
+.section{min-height: 100vh;padding: 80px 0;box-sizing: border-box;}
+.topBtn{position: fixed;right: 0;bottom: 0;width: 50px;height: 50px;background-color: violet;color: white;transform: translateX(100%);transition: 0.5s;}
+
+
+
+#interview i{font-family: xeicon;}
+#interview dt{border-bottom: 1px solid #222;
+    border-top: 2px solid #222;
+    padding: 0 1rem;font-size: 1.2rem;line-height: 1.5rem;}
+#interview dd{padding: 2rem;background-color: #ccc;line-height: 1.2rem;display: none;}
+
+#interview dt.on+dd{display: block;}
+
+.xi-angle-up{float: right;}
+#interview dt.on .xi-angle-up:before{content: '\e941';}
+/*  */
+
+
+/*스크롤 내렸을때의 변화가 생기는 객체들*/
+.scroll #hd{background-color: rgba(255, 255, 255, 0.5);}
+.scroll .topBtn{transform: translateX(0);}
+
+
+
+
+
+

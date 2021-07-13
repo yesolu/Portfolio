@@ -1,0 +1,202 @@
+#visual{width: 100%;}
+
+#visual .mainSlide{}
+
+.swiper-wrapper{}
+
+.visual01{
+    
+}
+.left_box img{width: 100%;}
+.right_box img{
+    width: 100%;
+}
+
+
+
+
+
+
+@media all and (min-width:768px){
+    
+    #visual{margin-top:7% ;}
+    .swiper-wrapper{
+        position: relative;
+        width: 100%;
+    }
+    .visual01{
+       
+        background: url(/portfolio/kimyesol/img/bg_item01.png)no-repeat center 100%;background-size: contain;height:0; padding-bottom:56%;
+    }
+    .visual_box{
+    }
+    .left_box{width: 52%;float: left;position: relative;z-index: 100000000;}
+    .left_box img{filter: drop-shadow(20px 20px 15px rgba(6,16,56,0.3));}
+    .right_box{
+        float: right;
+        position: absolute;top: 200px;right: 290px; 
+        box-sizing: border-box;
+    }
+    .right_box img{
+        display: block;  
+    }
+    .right_box .txt{
+        position: absolute;
+        top: 100px;left: 200px;
+        font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+        color: #fff;
+    }
+    .txt1{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .tit{
+        font-size: 4.5rem;
+        font-weight: 700;
+        margin-bottom: 2.5rem;
+    }
+    .txt_dex{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .dex{
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .txt_bottom{
+        margin-top: 150px;
+    }
+    .txt_bottom_left{float: left;}
+    .txt_bottom_right{float: right;}
+    .txt_list{
+        
+        font-size:2rem ;
+        font-weight: 400;
+    }
+    .txt_an{
+        
+        font-size: 2rem;
+        font-weight: 200;
+    }
+    button.btn{
+        width: 178px;
+        height: 58px;
+        border: 1px solid #fff;
+        border-radius: 100px;
+        font-size: 1.8rem;
+        color: #fff;
+        margin-top: 100px;
+    }
+}
+
+/* pc */
+@media all and (min-width:1320px){
+    #visual{margin-top:7% ;width: 100%;}
+    .swiper-container.mainSlide{width:100%;height: auto;}
+    .swiper-wrapper{
+        position: relative;
+        width: 100%;
+    }
+    .swiper-slide.visual01{
+        
+        background: url(/portfolio/kimyesol/img/bg_item01.png)no-repeat center 100%;background-size: contain;height:0; padding-bottom:56%;
+    }
+    .swiper-slide.visual02{
+        
+        background: url(/portfolio/kimyesol/img/bg_item02.png)no-repeat center 100%;background-size: contain;height:0; padding-bottom:56%;
+    }
+    .swiper-slide.visual03{
+        
+        background: url(/portfolio/kimyesol/img/bg_item03.png)no-repeat center 100%;background-size: contain;height:0; padding-bottom:56%;
+    }
+
+    .swiper-wrapper .visual01:after {
+        content: '';
+        position: absolute;
+        right: 100px;
+        top: 0;
+        width: 340px;
+        height: 320px;
+        background: url(/portfolio/kimyesol/img/bg_item01_1.png) center no-repeat;
+    }
+    .swiper-wrapper .visual02:after {
+        content: '';
+        position: absolute;
+        right: 100px;
+        top: 0;
+        width: 340px;
+        height: 320px;
+        background: url(/portfolio/kimyesol/img/bg_item02_2.png) center no-repeat;
+    }
+    .swiper-wrapper .visual03:after {
+        content: '';
+        position: absolute;
+        right: 100px;
+        top: 0;
+        width: 340px;
+        height: 320px;
+        background: url(/portfolio/kimyesol/img/bg_item03_3.png) center no-repeat;
+    }
+    .swiper-button-next{
+        border-bottom: 1px solid #000;
+    }
+    .visual_box{
+    }
+    .left_box{width: 52%;float: left;position: relative;z-index: 100000000;}
+    .left_box img{display: block; filter: drop-shadow(20px 20px 15px rgba(6,16,56,0.3));}
+    .right_box{
+        float: right;
+        position: absolute;top: 200px;right: 290px;
+        box-sizing: border-box;
+    }
+    .right_box img{
+        display: block;  
+    }
+    .right_box .txt{
+        position: absolute;
+        top: 100px;left: 200px;
+        font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+        color: #fff;
+    }
+    .txt1{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .tit{
+        font-size: 4.5rem;
+        font-weight: 700;
+        margin-bottom: 2.5rem;
+    }
+    .txt_dex{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .dex{
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .txt_bottom{
+        margin-top: 150px;
+    }
+    .txt_bottom_left{float: left;}
+    .txt_bottom_right{float: right;}
+    .txt_list{
+        
+        font-size:2rem ;
+        font-weight: 400;
+    }
+    .txt_an{
+        
+        font-size: 2rem;
+        font-weight: 200;
+    }
+    button.btn{
+        width: 178px;
+        height: 58px;
+        border: 1px solid #fff;
+        border-radius: 100px;
+        font-size: 1.8rem;
+        color: #fff;
+        margin-top: 100px;
+    }
+}

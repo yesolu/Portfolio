@@ -1,0 +1,77 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:1320px){
+    #sec1{margin-top: 7%;}
+    
+    .title{
+        display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 80px;
+    }
+    
+    .mainTitle{
+        font-family: 'twayair';
+        font-size: 4rem;
+    }
+   
+    .sec1_wrapper{
+        display: flex;
+        justify-content: space-between;
+        font-family:  'Spoqa Han Sans Neo', 'sans-serif';
+    }
+    .txt_box{
+        width: 50%;
+    }
+    .self_title{
+        color: #372560;
+        font-size: 4rem;
+        font-weight: 700;   
+    }
+    .self_dex{
+        color: #666;
+        font-size: 1.8rem;
+        font-weight: 300;
+        margin-top: 40px;
+    }
+    .small_txt{
+        font-size: 1.8rem;
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .sm_txt_left{
+        font-weight: 400;
+        color:#372560 ;
+        padding-right: 30px;
+    }
+    .sm_txt_right{
+        font-weight: 300;
+        color: #666;
+    }
+    .img_box{
+        width: 50%;
+    }
+    .img_box img{
+        display: block;
+        width: 100%;
+        margin: 0;
+        
+    }
+}

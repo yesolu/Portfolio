@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Light'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+    src: local('Spoqa Han Sans Thin'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.ttf') format('truetype');
+}
+
+   @font-face {
+    font-family: 'twayair';
+    src: url('/portfolio/intro/font/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* header */
+
+#hd{position: fixed;left: 0;right: 0;top: 0;z-index: 100000;
+    background-color: white;transition: 0.5s;}
+    #hd h1 img{width: 80px;}
+    #hd a{font-family: 'twayair';color: #372560;text-decoration: none;}
+    #hd li.on a{color: #222;}
+
+/* 비주얼 */
+#mainSlider{margin: 150px 0;position: relative;overflow: hidden;min-height: 100vh;}
+#mainSlider .swiper-slide.item01{height:0; padding-bottom:56%; position: relative; 
+    background: url(/portfolio/0529/img/bg_item01.png)no-repeat center 100%; background-size: contain;box-sizing: border-box;}
+
+#mainSlider .item01 .imgArea{position: relative;}
+.item01 .imgArea .text_box{position: absolute;top: 200px;right: 0;z-index: -1;}
+.item01 .textArea *{display: block;overflow: hidden;box-sizing: border-box;}
+.item01 .textArea{position: absolute;top: 300px; right: 150px;}
+.item01 .textArea span.tit{height: 6em;
+    padding-bottom: 3.25em;
+    line-height: 1;}
+.item01 .textArea span.txt{height: 3em;
+    padding-bottom: 3em;
+    font-size: 1.125em;}
+.item01 .textArea span.txt_dex{height: 3em;
+    padding-bottom: 3em;
+    font-size: 1.125em;}
+.item01 .textArea span.date{padding-bottom: 3em;
+    font-size: 1.625em;}
+
+
+
+/* section */
+.section{font-family: 'Spoqa Han Sans';}
+
+.section{min-height: 100vh;padding: 80px 0;box-sizing: border-box;}
+.topBtn{position: fixed;right: 0;bottom: 0;width: 50px;height: 50px;background-color: violet;color: white;transform: translateX(100%);transition: 0.5s;}
+
+
+
+#interview i{font-family: xeicon;}
+#interview dt{border-bottom: 1px solid #222;
+    border-top: 2px solid #222;
+    padding: 0 1rem;font-size: 1.2rem;line-height: 1.5rem;}
+#interview dd{padding: 2rem;background-color: #ccc;line-height: 1.2rem;display: none;}
+
+#interview dt.on+dd{display: block;}
+
+.xi-angle-up{float: right;}
+#interview dt.on .xi-angle-up:before{content: '\e941';}
+/*  */
+
+
+/*스크롤 내렸을때의 변화가 생기는 객체들*/
+.scroll #hd{background-color: rgba(255, 255, 255, 0.5);}
+.scroll .topBtn{transform: translateX(0);}
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+#visual {margin-top: 100px;}
+#visual .visual_slide{position: relative;}
+#visual .swiper-slide.visual01{
+    
+   }
+#visual .swiper-slide.visual01{ 
+     background: url(/portfolio/yesol/img/bg_item01.png)no-repeat center 100%; background-size: contain;height:0; padding-bottom:56%; }
+
+
+
+#visual .poster{}
+#visual .poster img{display: block; width: 55%;height: auto;}
+#visual .txtBox{position: absolute;top: 200px;right: -295px; z-index: -1;box-sizing: border-box;}
+#visual .txtBox img{display: block; width: 55%;height: auto;}
+#visual .txtArea *{display: block;box-sizing: border-box;color: #fff;font-family: 'Spoqa Han Sans';}
+#visual .txtArea{position: absolute;top: 100px;left: 150px;}
+
+.txtArea span.tit{height: 6em;
+    padding-bottom: 3.25em;
+    line-height: 1;}
+.txtArea span.tit i{
+    padding-bottom: .8em;
+    font-size: 1.125em;
+    font-weight: 500;}
+.txtArea span.tit b{
+    max-height: 2.8em;
+    font-weight: 700;
+    font-size: 2.6em;
+    white-space: normal;
+    word-break: keep-all;}
+.txtArea span.txt{height: 2em;
+    font-size: 1.4em;
+    padding-top: 0.5em;}
+.txtArea span.txt_dex{height: 2em;
+    padding-bottom: 5em;
+    font-size: 1.4em;
+    font-weight: 300;}
+.txtArea span.date{padding-bottom: 1em;
+    font-size: 1.25em;}
+.txtArea span.date b{font-weight: 700;}
+
+
+
+
+
+/* tablet */
+@media all and (max-width:768px){
+    #visual .poster img{display: block; width: 100%;height: auto;}
+    
+}
+
+
+/* mobile */
+@media all and (max-width:578px){
+   
+}
+
+

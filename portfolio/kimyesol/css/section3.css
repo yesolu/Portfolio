@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+@media all and (min-width:1320px){
+    #sec3{margin-top: 7%;}
+    .sec3_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .interview_box{
+        width: 65%;
+    }
+    .contact_box{
+        width: 35%;
+    }
+
+
+#interview i{font-family: xeicon;}
+#interview dt{border-bottom: 1px solid #222;
+    border-top: 2px solid #222;
+    padding: 0 1rem;font-size: 1.2rem;line-height: 1.5rem;}
+#interview dd{padding: 2rem;background-color: #ccc;line-height: 1.2rem;display: none;}
+
+#interview dt.on+dd{display: block;}
+
+.xi-angle-up{float: right;}
+#interview dt.on .xi-angle-up:before{content: '\e941';}
+/*  */
+}

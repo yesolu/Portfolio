@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:1320px){
+    #sec2{margin-top: 7%;}
+
+    .sec2_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .first_box{
+        width: 100%;
+        height: 543px;
+        background: url(/portfolio/kimyesol/img/content_box01.png)no-repeat center;
+    }
+    .second_box{
+        width: 100%;
+        height: 543px;
+        background: url(/portfolio/kimyesol/img/content_box02.png)no-repeat center;
+    }
+    .third_box{
+        width: 100%;
+        height: 543px;
+        background: url(/portfolio/kimyesol/img/content_box03.png)no-repeat center;
+    }
+    .content_poster{
+        /* width: 250px;
+        height: 353px;
+        background: #666; */
+    }
+}
