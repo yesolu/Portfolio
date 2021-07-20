@@ -1,0 +1,33 @@
+.display_section{margin-top: 80px;text-align: center;}
+.display_section h2{margin-bottom: 20px;}
+.description{
+    color: #7a7a7a;
+    font:400 14px/1.8 'Spoqa Han Sans Neo';
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    
+}
+.description br{display: none;}
+
+
+/* tablet */
+@media all and (min-width:768px){
+    .display_section{}
+    .display_section h2{margin-bottom: 30px;}
+    .description{}
+
+    .description br{display: block;}
+
+}
+
+
+
+/* pc */
+@media all and (min-width:1152px){
+ 
+    .display_section{text-align: left;}
+    .display_section h2{float: left;width: 45%;margin-top: 10px;font-size: 35px;}
+    .description{float: right;width: 55%;position: relative;padding-left: 20px;box-sizing: border-box;}
+
+    .description::after{content: '';width: 1px;height: 45px;background-color: #1ebdc6;position: absolute;top: 5px;left: 0;}
+
+}

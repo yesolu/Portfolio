@@ -1,0 +1,36 @@
+.icon_section{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.icon_list{}
+.icon_list li{margin-bottom: 40px;}
+.icon_list li a{}
+.icon_list li a img{height: 86px;}
+.icon_list li a h3{margin: 20px 0;
+color: #337aaa;font-size: 18px;
+font-weight: bold;
+font-family: 'Spoqa Han Sans Neo', 'sans-serif'}
+.icon_list li a p{color: #7a7a7a;font:14px/1.4 'Spoqa Han Sans Neo';}
+
+.icon_list li a:hover>h3{color: #303e57;}
+
+/* tablet */
+@media all and (min-width:768px){
+    .icon_section{
+        margin: 80px 0;
+    }
+    .icon_list{width: 100%;}
+    .icon_list li{width: 18%;margin-right: 2%;float: left;}
+    .icon_list li:last-child{margin-right: 0;}
+
+
+}
+
+
+
+/* pc */
+@media all and (min-width:1152px){
+  
+
+}

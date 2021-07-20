@@ -1,0 +1,103 @@
+.header{
+    position: relative;padding: 18px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.logo{float: left;}
+.logo img{height: 22px;}
+
+/* 모바일 gnb */
+/* nav.util{
+    position: absolute;
+    width: 100%;
+    
+    /*부모의 높이값을 정확히 알지 못할때 탑100%*/
+    /* background-color: #1dcad3;
+    display:none;
+    } */ 
+.gnb{
+  position: absolute;
+  width: 100%;
+  left: 0;top: 100%;
+  background-color: #1dcad3;
+  display: none;
+    z-index: 10;
+
+}
+
+.gnbMenu li a{
+    display: block;
+    padding: 14px 0 14px 35px;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    text-decoration: none;
+}
+.util li{}
+.util li a{
+    display: block;
+    padding: 14px 0 14px 35px;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.mobile_toggle_btn{float: right;display: block;cursor: pointer;width: 25px;margin: 4px 0;}
+.mobile_toggle_btn span{display: block; width: 100%; height: 2px; background:#1dcad3;border-radius: 20%;
+  }
+ 
+.bar2{margin: 6px 0;}
+
+
+.util li:first-child{border-top:1px solid #fff;}
+
+
+@media all and (min-width:768px){
+    /* 전체에서 최소 768px까지 */
+.header{
+    
+    display: flex;
+justify-content: space-between;}
+.logo{}
+.logo img{height: 26px;padding: 10px 0;}
+
+
+
+.gnb{
+    width: 80%;
+    display: flex !important;
+    background-color: #fff;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav#category{width: 70%;}
+nav .gnbMenu{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+
+}
+.gnbMenu li a{color: #303e57;display: block;padding: 10px 0;font-size: 18px;font-family: 'Spoqa Han Sans Neo', 'sans-serif'; font-weight: 500;}
+
+.gnbMenu li:hover>a{color: #337aaa;}
+
+.util{float: right;
+    display: block !important;
+    background-color: #fff;
+    position: relative;
+    width: auto;
+
+}
+.util li{float: left;
+    margin-left: 20px;border-bottom: none;}
+.util li a{color: #337aaa;display: inline-block;padding: 10px 0;font-size: 14px;font-family: 'Spoqa Han Sans Neo', 'sans-serif'}
+
+.mobile_toggle_btn{display: none;}
+
+.util li:hover>a{color: #1dcad3;border-bottom: 1px solid #1dcad3;}
+}

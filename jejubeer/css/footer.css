@@ -1,0 +1,36 @@
+.footer{background-color:#1ebdc6;margin-top: 104px;text-align: center;}
+.footer_top{display: inline-block;}
+.footer_top li{float: left;}
+.footer_top li a{display:block;font: bold 13px 'Spoqa Han Sans Neo';color: #fff;margin: 20px 0;padding: 20px 15px 0 0;box-sizing: border-box;letter-spacing: -0.5px;}
+.footer_top li:last-child>a{padding-right: 0;}
+
+
+.footer_bottom{text-align: center;}
+.footer_bottom h4{font:300 14px 'Spoqa Han Sans Neo';color: #fff;padding: 20px 0;}
+.footer_bottom h5{font:300 14px 'Spoqa Han Sans Neo';color: #fff;}
+.footer_bottom .cs{font:400 14px 'Spoqa Han Sans Neo';color: #fff;padding: 20px 0;}
+.footer_bottom .copy{font:200 14px 'Spoqa Han Sans Neo';color: #e5e5e5;padding: 30px 0;}
+
+
+
+
+@media all and (min-width:768px){
+    .footer{margin-top: 120px;background-color: #1ebdc6;}
+    
+}
+
+
+
+/* pc */
+@media all and (min-width:1152px){
+    .footer{margin-top: 120px;background-color: #1ebdc6;text-align: left;position: relative;}
+    .footer_bottom{text-align: left;}
+    .footer_top li a{display: block;padding: 20px 50px 0 50px;}
+    .footer_top li a:first-child{padding-left: 0;}
+
+    .footer_bottom br{display: none;}
+
+    .footer_bottom{background: url(../img/footer_logo.png)no-repeat top right;}
+
+
+}

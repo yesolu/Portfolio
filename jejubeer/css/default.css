@@ -1,0 +1,42 @@
+.container{width: 90%;max-width: 1152px;margin: 0 auto;}
+
+/* 플룻해제 */
+.clearfix::after{content: '';display: block;clear: both;}
+
+
+/* 숨김요소 */
+.blind{
+position: absolute;
+width: none;
+height: none;
+line-height: none;
+text-indent: -9999px;
+overflow: hidden;}
+
+/*  */
+.sec_title{
+    color: #1ebdc6;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divider{
+    width: 90%;margin: 50px auto;
+    max-width: 1152px;   
+}
+
+.divider img{
+    width: 100%;margin: 50px auto;
+    max-width: 1152px;   
+}
+
+
+
+@media all and (min-width:768px){
+    .sec_title{
+        color: #1ebdc6;
+        font-size: 35px;
+    }
+
+}

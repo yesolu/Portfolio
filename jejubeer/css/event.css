@@ -1,0 +1,321 @@
+.header{
+    position: relative;padding: 18px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.logo{float: left;}
+.logo img{height: 22px;}
+
+/* 모바일 gnb */
+/* nav.util{
+    position: absolute;
+    width: 100%;
+    
+    /*부모의 높이값을 정확히 알지 못할때 탑100%*/
+    /* background-color: #1dcad3;
+    display:none;
+    } */ 
+.gnb{
+  position: absolute;
+  width: 100%;
+  left: 0;top: 100%;
+  background-color: #1dcad3;
+  display: none;
+    z-index: 10;
+
+}
+.gnbMenu li a{
+    display: block;
+    padding: 14px 0 14px 35px;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    text-decoration: none;
+}
+.util li{}
+.util li a{
+    display: block;
+    padding: 14px 0 14px 35px;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.mobile_toggle_btn{float: right;display: block;cursor: pointer;width: 25px;margin: 4px 0;}
+.mobile_toggle_btn span{display: block; width: 100%; height: 2px; background:#1dcad3;border-radius: 20%;
+  }
+ 
+.bar2{margin: 6px 0;}
+
+.util li:first-child{border-top:1px solid #fff;}
+/* header end */
+
+/* section1 */
+#sec1{width: 100%;}
+.eVisual{
+    background: url(/jejubeer/img/sub/moVisual.png)no-repeat center center;
+    background-size: cover;
+    height:0; padding-bottom:102%; position: relative;
+}
+.eVisual_item{background: url(/jejubeer/img/sub/event_visual_item.png)no-repeat center center;background-size: contain;    width: 100%;height: 250px; position: absolute; bottom: 15%;}
+.visualTxt{   
+    padding: 100%  0 0;
+   text-align: center;}
+.secTit{
+    box-sizing: border-box;
+    background-color: #1dcad3;
+    border-radius: 100px;
+    text-align: center;
+    font:500 15px 'Spoqa Han Sans Neo';color: #fff;padding: 6px 0;
+    margin:0 30% 10% 30%;}
+
+    .subTit{
+        font-family: 'LotteMartHappy';
+        font-size: 18px;
+        color: #1dcad3;
+        margin: 3% 0 2%;
+    }
+    .mainTit{
+        font-family: 'LotteMartHappy';
+        font-size: 30px;
+        color: #303e57;
+        line-height: 1.1;
+    }
+    .mainTit strong{color: #FF9124;}
+
+/* section2 */
+#sec2{width: 100%;margin-top: 230px}
+.product{}
+.pBox1{background: url(/jejubeer/img/sub/conBox1.png)no-repeat center;
+background-size: contain;height: 0;padding-bottom: 114%;position: relative;margin-bottom: 20px;}
+.pBox2{background: url(/jejubeer/img/sub/conBox2.png)no-repeat center;
+    background-size: contain;height: 0;padding-bottom: 114%;position: relative;margin-bottom: 20px;}
+.pBox3{background: url(/jejubeer/img/sub/conBox3.png)no-repeat center;
+    background-size: contain;height: 0;padding-bottom: 114%;position: relative;
+margin-bottom: 20px;}
+.boxTit{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font:500 20px 'Spoqa Han Sans Neo';color: #303e57;
+}
+.boxSubTit{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    font:400 14px 'Spoqa Han Sans Neo';color: #7a7a7a;}
+
+/* section3 */
+#sec3{width: 100%;margin-top: 80px;}
+.con2dex{text-align: center; font:400 18px 'Spoqa Han Sans Neo';color: #7a7a7a;line-height: 1.3;}
+.dexBox{border-top: 2px solid #1dcad3;border-bottom: 2px solid #53b4ba;padding: 20px 10px;margin: 20px 0;
+    display: block; }
+.con2dex br{display:block;}
+.leftBox{width: 100%;}
+.rightBox{width: 100%;}
+.leftDex{display: inline-block;width: 35%;font:700 18px 'Spoqa Han Sans Neo';color: #7a7a7a;line-height: 1.5;}
+.rightDex{display: inline-block;font:400 18px 'Spoqa Han Sans Neo';color: #7a7a7a;}
+.subDex{font:400 15px 'Spoqa Han Sans Neo';color: #7a7a7a;text-align: center;}
+
+/* section4 */
+#sec4{width: 100%;margin-top: 80px;}
+.video{padding: 20px 0;margin-bottom: 40px;}
+.video iframe{width: 100%;height: 300px;}
+
+.quizBox{width: 100%; background: url(/jejubeer/img/sub/conBox.png)no-repeat center;
+background-size: contain;height: 0;padding-bottom: 114%;
+}
+.quiz{padding: 12% 5% 10% 5%;
+    width: 100%;
+    box-sizing: border-box;}
+.quizTit{font:500 20px 'Spoqa Han Sans Neo';color: #303e57;padding-bottom: 1%;}
+.quizDex{font:400 20px 'Spoqa Han Sans Neo';color: #7a7a7a;padding-bottom: 15%;}
+.quizAnswer{padding-bottom: 25%;font:400 20px 'Spoqa Han Sans Neo';color: #7a7a7a;display: flex;justify-content: space-between;align-items: center;}
+.quizBr{display: none;}
+.answerBox{width: 100%;}
+.answerBox button{
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+    outline: none;
+    text-align: center;background-color: #1dcad3;border-radius: 100px;width: 100%;
+    font:700 24px 'Spoqa Han Sans Neo';color: #fff;line-height: 1.8;}
+
+/* section5 */
+#sec5{width: 100%;margin-top: 100px;}
+ul.notice{border-top: 2px solid #1dcad3;border-bottom: 2px solid #53b4ba;padding: 3% 0;}
+.notice li{list-style: disc inside;line-height: 1.8;font:400 14px 'Spoqa Han Sans Neo';color: #7a7a7a;padding-bottom: 2%;}
+
+
+
+
+@media all and (min-width:768px){
+    /* section1 */
+#sec1{width: 100%;}
+.eVisual{
+    background: url(/jejubeer/img/sub/event_visual.png)no-repeat center center;
+    background-size: cover;
+    height:0; padding-bottom:58%; position: relative;
+}
+.eVisual_item{ width: 50%;
+    height: 350px;
+    position: absolute;
+    bottom: 12%;
+    left: 40%;}
+.visualTxt{
+    position: absolute;
+    padding: 0 0 0 10%;
+    margin-top: 10%;
+    text-align: left;}
+.secTit{
+    margin:0 0 5% 0;
+    width: 32%;
+    font:bold 20px 'Spoqa Han Sans Neo';}
+.subTit{
+   
+    font-size: 30px;
+    margin: 3% 0 2%;
+}
+.mainTit{
+    font-size: 45px;
+    line-height: 1.1;
+}
+
+/* section2 */
+#sec2{margin-top: 50px}
+.product{}
+.pBox1{width: 32%; padding-bottom: 36%;margin-bottom: 20px;}
+.pBox2{width: 32%; padding-bottom: 36%;margin-bottom: 20px;}
+.pBox3{width: 32%; padding-bottom: 36%;margin-bottom: 20px;}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* section3 */
+#sec3{width: 100%;margin-top: 80px;}
+.con2dex{text-align: left; display: inline-block;}
+.con2dex br{display: none;}
+.dexBox{border-top: 2px solid #1dcad3;border-bottom: 2px solid #53b4ba;padding: 20px 10px;margin: 20px 0; display: flex;justify-content: space-between;}
+
+.leftDex{width: 25%;}
+.subDex{font:400 15px 'Spoqa Han Sans Neo';color: #7a7a7a;text-align: right;}
+
+/* section4 */
+.video iframe{width: 100%;height: 485px;}
+.quizBox{width: 100%; background: url(/jejubeer/img/sub/quizbox.png)no-repeat center;
+background-size: contain;height: 0;padding-bottom: 33%;
+display: flex;justify-content: flex-start;
+align-items: flex-start;}
+.quizBox{width: 100%;}
+.quizItem{width: 25%; height: 335px; background: url(/jejubeer/img/sub/event_con_item.png)no-repeat;background-size: contain; margin: 25px;box-sizing: border-box;}
+.quiz{padding: 3% 0 5% 3%;
+    width: 70%;
+    box-sizing: border-box;}
+.quizDex{font:400 20px 'Spoqa Han Sans Neo';color: #7a7a7a;padding-bottom: 3%;}
+.quizAnswer{padding-bottom: 3%;padding-right: 100px;}
+.quizBr{display: none;}
+.answerBox button{
+   width: 90%;}
+
+
+/* section5 */
+#sec5{width: 100%;margin-top: 100px;}
+ul.notice{border-top: 2px solid #1dcad3;border-bottom: 2px solid #53b4ba;padding: 3% 0;}
+.notice li{font:400 18px 'Spoqa Han Sans Neo';}
+
+
+}
+
+
+
+
+
+@media all and (min-width:1152px){
+    /* 전체에서 최소 768px까지 */
+.header{
+    
+    display: flex;
+justify-content: space-between;}
+.logo{}
+.logo img{height: 26px;padding: 10px 0;}
+
+
+
+.gnb{
+    width: 80%;
+    display: flex !important;
+    background-color: #fff;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav#category{width: 70%;}
+nav .gnbMenu{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.gnbMenu li a{color: #303e57;display: block;padding: 10px 0;font-size: 18px;font-family: 'Spoqa Han Sans Neo', 'sans-serif'; font-weight: 500;}
+
+.gnbMenu li:hover>a{color: #337aaa;}
+
+.util{float: right;
+    display: block !important;
+    background-color: #fff;
+    position: relative;
+    width: auto;
+
+}
+.util li{float: left;
+    margin-left: 20px;border-bottom: none;}
+.util li a{color: #337aaa;display: inline-block;padding: 10px 0;font-size: 14px;font-family: 'Spoqa Han Sans Neo', 'sans-serif'}
+
+.mobile_toggle_btn{display: none;}
+
+.util li:hover>a{color: #1dcad3;border-bottom: 1px solid #1dcad3;}
+
+/* header end */
+
+/* section1 */
+
+.visualTxt{
+    position: absolute;
+    padding: 0 0 0 20%;
+    margin-top: 10%;}
+.secTit{
+    box-sizing: border-box;
+    font:bold 24px 'Spoqa Han Sans Neo';}
+.subTit{
+    font-size: 41px;
+    
+}
+.mainTit{
+    font-size: 70px;
+    line-height: 1.1;
+}
+
+/* section4 */
+.video iframe{width: 100%;height: 650px;}
+
+.quizBr{display: block;}
+.quizTit{padding-bottom: 3%;}
+.quizDex{padding-bottom: 6%;}
+.quizAnswer{padding-bottom: 6%;}
+
+    
+}
+

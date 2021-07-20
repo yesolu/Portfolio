@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'),
+    url('../fonts/SpoqaHanSans/SpoqaHanSansBold.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans/SpoqaHanSansBold.woff') format('woff'),
+    url('../fonts/SpoqaHanSans/SpoqaHanSansBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'),
+    url('../fonts/SpoqaHanSans/SpoqaHanSansRegular.woff2') format('woff2'),
+    url('../fonts/spoqa-han-sans/SpoqaHanSans/SpoqaHanSansRegular.woff') format('woff'),
+    url('../fonts/spoqa-han-sans/SpoqaHanSans/SpoqaHanSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Light'),
+    url('../fonts/SpoqaHanSans/SpoqaHanSansLight.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans/SpoqaHanSansLight.woff') format('woff'),
+    url('../fonts/SpoqaHanSans/SpoqaHanSansLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+    src: local('Spoqa Han Sans Thin'),
+    url('../fonts/SpoqaHanSans/SpoqaHanSansThin.woff2') format('woff2'),
+    url('../fonts/SpoqaHanSans/SpoqaHanSansThin.woff') format('woff'),
+    url('../fonts/SpoqaHanSans/SpoqaHanSansThin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Neo Bold'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 500;
+    src: local('Spoqa Han Sans Neo Medium'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Neo Regular'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Neo Light'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 100;
+    src: local('Spoqa Han Sans Neo Thin'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.ttf') format('truetype');
+
+}
+
+ @font-face {
+  font-family: 'LotteMartHappy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LotteMartHappy';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff') format('woff');
+}

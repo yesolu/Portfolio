@@ -1,0 +1,74 @@
+.activities_section{margin-top: 100px;}
+.activities_section h2{margin-bottom: 50px;text-align: center;}
+.activities_section span{display: block;text-align: right;}
+.activities_section span a{display: block;font: 15px 'Spoqa Han Sans Neo';color: #ccc;padding-right: 27px;background: url(../img/arrow_g.png)no-repeat right center;}
+
+.activities_list{}
+.activities_list li{width: 100%;margin-top: 30px;}
+.activities_list li a{
+    display: block;
+    position: relative;
+}
+.activities_list li a>img{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+.activities_list li a>h3{
+    font: bold 16px/1.5 'Spoqa Han Sans Neo';
+    color: #333;
+    position: absolute;bottom:35px;left: 25px;
+    margin: 3px 0;
+}
+.activities_list li a>p{color: #7a7a7a;line-height: 1.5;font-size: 14px;
+    white-space: nowrap;text-overflow: ellipsis;overflow: hidden;word-wrap: break-word;width: 250px;position: absolute;bottom:15px;left: 25px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif'}
+
+
+/* tablet */
+@media all and (min-width:768px){
+
+    .activities_section{margin-top: 0;}
+    .activities_list li{float: left;
+        margin-right: 2%;
+        width: 32%;
+        box-sizing: border-box;
+
+    }
+    .activities_list li:last-child{margin-right: 0;}
+
+    .activities_list li a>h3{
+        font: bold 13px/1.5 'Spoqa Han Sans Neo';
+        color: #333;
+        position: absolute;bottom:28px;left: 10px;
+        margin: 3px 0;
+    }
+    .activities_list li a>p{color: #7a7a7a;line-height: 1.5;font-size: 13px;
+        white-space: nowrap;text-overflow: ellipsis;overflow: hidden;word-wrap: break-word;width: 200px;
+         position: absolute;bottom:10px;left: 10px;
+        font-family: 'Spoqa Han Sans Neo', 'sans-serif';}
+    
+    
+
+}
+
+
+
+/* pc */
+@media all and (min-width:1152px){
+
+    .activities_section .sec_title{text-align: left;width: 1152px;font-size: 35px;margin-top: 20px;}
+
+    .activities_list li a>h3{
+        font: bold 18px/1.5 'Spoqa Han Sans Neo';
+        color: #333;
+        position: absolute;bottom:50px;left: 25px;
+        margin: 3px 0;
+    }
+    .activities_list li a>p{color: #7a7a7a;line-height: 1.5;font-size: 15px;
+        white-space: nowrap;text-overflow: ellipsis;overflow: hidden;word-wrap: break-word;position: absolute;bottom:30px;left: 25px;width: 500px;
+        font-family: 'Spoqa Han Sans Neo', 'sans-serif'}
+ 
+}
+  

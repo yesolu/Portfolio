@@ -1,0 +1,72 @@
+.playlist_section{margin-top: 100px;}
+.playlist_section h2{margin-bottom: 50px;text-align: center;}
+.playlist_section span{display: block;text-align: right;}
+.playlist_section span a{display: block;font: 15px 'Spoqa Han Sans Neo';color: #ccc;padding-right: 27px;background: url(../img/arrow_g.png)no-repeat right center;}
+
+
+.playlist_list{}
+.playlist_list li{width: 100%;margin-top: 30px;float: left;position: relative;}
+.playlist_list li a{
+    display: block;
+}
+
+.record_box{position: relative;}
+.playlist_list li a>img.record{
+    width: 100%;
+    height: auto;
+   
+}
+
+
+.playlist_list li a>img.rotation{
+   position: absolute;top: 0;right: 0;
+   width: 60%;height: auto;z-index: -3;
+
+}
+
+.playlist_list li a:hover>img.rotation {
+     animation: rotate_image 3s linear infinite;
+     transform-origin: 50% 50%;
+ }
+  
+ @keyframes rotate_image{
+     100% {
+         transform: rotate(360deg);
+     }
+ }
+ 
+
+
+
+
+/* sns */
+.icon_wrap{margin-top: 100px;width: 100%;text-align: center;}
+.icon_wrap a {display:inline-block;margin-right: 5px;box-sizing: border-box;}
+.icon_wrap a img{ display: inline-block;height: 35px;box-sizing: border-box;}
+
+.icon_wrap a img:last-child{margin-right: 0;}
+
+
+/* tablet */
+@media all and (min-width:768px){
+    .playlist_list li{float: left;
+        margin-right: 2%;
+        width: 32%;
+        box-sizing: border-box;
+
+    }
+    .playlist_list li:last-child{margin-right: 0;}
+
+    .icon_wrap{text-align: center;}
+    .icon_wrap a img{ display: inline-block;height: 40px;box-sizing: border-box;}
+}
+
+
+
+/* pc */
+@media all and (min-width:1152px){
+
+    .playlist_section .sec_title{text-align: left;width: 1152px;font-size: 35px;}
+    .icon_wrap a img{ display: inline-block;height: 50px;box-sizing: border-box;}
+ 
+}
