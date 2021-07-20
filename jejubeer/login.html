@@ -39,6 +39,7 @@
 
     <link rel="stylesheet" href="/jejubeer/css/default.css">
     <link rel="stylesheet" href="/jejubeer/css/header.css?ver=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/jejubeer/css/login.css">
      <link rel="stylesheet" href="/jejubeer/css/footer.css">
     <link rel="stylesheet" href="/jejubeer/css/font.css">
     
@@ -48,6 +49,78 @@
     <script src="/jejubeer/js/aos.js"></script>
 </head>
 <body>
-    
+    <header class="header">
+        <h1 class="logo"><a href="/jejubeer/index.html"><img src="/jejubeer/img/logo.png" alt="logo"></a></h1>
+       <div class="gnb">
+            <nav id="category">
+                <ul class="gnbMenu">
+                    <li><a href="/jejubeer/event.html">EVENT</a></li>
+                    <li><a href="#">PLAYLIST</a></li>
+                    <li><a href="#">EXPERIENCE</a></li>
+                    <li><a href="#">SHOP</a></li> 
+                    <li><a href="#">BREWERY</a></li>  
+                </ul>  
+            </nav>
+            <nav id="utilmenu">
+                <ul class="util" >
+                    <li><a href="/jejubeer/login.html">LOGIN</a></li>
+                    <li><a href="/jejubeer/join.html">JOIN</a></li>
+                    <li><a href="#">CART</a></li>
+                    <li><a href="#">CONTACT US</a></li>    
+                </ul>
+            </nav>
+       </div>
+        <span class="mobile_toggle_btn ">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"></span>
+        </span>
+    </header><!--HEADER END -->
+    <section id="login" class="moContainer">
+        <h2 class="sec_title center">LOGIN</h2>
+        <div class="loginBox">
+            <input class="id"  type="text" placeholder="이메일"/>
+            <input class="id"  type="password" placeholder="비밀번호"/>
+        </div>
+        <button class="loginBtn Btn">로그인</button>
+        <div class="check">
+            <div class="checkLeft">
+                <input type="checkbox" class="checkBox">아이디 저장
+            </div>
+            <div class="findbox">
+                <span class="findID"><a href="#">아이디 찾기</a></span>
+                <span><a href="#">비밀번호 찾기</a></span>
+            </div>
+        </div>
+        <button class="orderBox Btn">비회원 주문조회</button>
+
+        <div class="line"></div>
+        <button class="naverBtn Btn">네이버 로그인</button>
+        <button class="kakaoBtn Btn">카카오톡 로그인</button>
+        
+    </section>
+    <footer class="footer">
+        <div class="container">
+        
+            <ul class="footer_top clearfix">
+                <li ><a href="#">ABOUT US</a></li>
+                <li ><a href="#">NEWS</a></li>
+                <li ><a href="#">CONTACT</a></li>
+                <li ><a href="#">RECRUIT</a></li>
+                <li ><a href="#">NOTICE</a></li>
+            </ul>
+
+            <div class="footer_bottom">
+                   
+                    <h4>대표이사 문혁기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       개인정보보호책임자 이용석<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 사업자등록번호 616-86-27415<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 통신판매업신고번호 제 2020-제주한림-0101 호 
+                     
+                    </h4>
+                    <h5>본사) 제주특별자치도 제주시 한림읍 금능농공길 62-11    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;서울사무실) 서울특별시 중구 동호로 228 동호 38빌딩 6층</h5>
+                    <p class="cs">고객센터 02-2235-5559, jejubeer@jejubeer.co.kr</p>
+                    <p class="copy">COPYRIGHT 2021@ JEJU BEER COMPANY</p>
+               
+            </div>
+        </div>     
+    </footer>
 </body>
 </html>

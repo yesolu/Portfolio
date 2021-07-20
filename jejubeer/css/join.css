@@ -1,0 +1,36 @@
+.moContainer{width: 100%;max-width: 368px;margin: 0 auto;}
+#join{margin-top: 5%;}
+h2.center{text-align: center;padding-bottom: 10%;}
+
+.Btn{width: 100%;height: 38px; outline: none;border: none;box-sizing: border-box;}
+
+.joinBtn{margin: 5% 0 2%;background-color: #1dcad3;border-radius: 5px;color: #fff;font:400 14px 'Spoqa Han Sans Neo';margin-bottom: 15%;}
+
+
+.line{border: 1px solid #1dcad3;margin-bottom: 5%;}
+.naverBtn{background-color: #20BC01;border-radius: 5px;color: #fff;font:400 14px 'Spoqa Han Sans Neo';margin-bottom: 5%;}
+.naverBtn::before{content: "";background: url(/jejubeer/img/sub/naver.png)no-repeat;width: 18px;height: 17px;display: inline-block;padding-right: 5px;vertical-align: text-top;}
+.kakaoBtn{background-color: #FBE100;border-radius: 5px;color: #3F2125;font:400 14px 'Spoqa Han Sans Neo';}
+.kakaoBtn::before{content: "";background: url(/jejubeer/img/sub/kakao.png)no-repeat;width: 18px;height: 17px;display: inline-block;padding-right: 5px;vertical-align: middle;}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:1152px){
+    nav .gnbMenu{
+        display: flex ;
+        justify-content: space-between;
+        align-items: center;
+        
+    
+    }
+    
+}

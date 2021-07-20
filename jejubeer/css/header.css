@@ -53,7 +53,7 @@
 .util li:first-child{border-top:1px solid #fff;}
 
 
-@media all and (min-width:768px){
+@media all and (min-width:1152px){
     /* 전체에서 최소 768px까지 */
 .header{
     
