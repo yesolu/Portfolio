@@ -74,4 +74,31 @@
         margin: 0;
         
     }
+
+/* 탭영역 */
+#tab{}
+.icon_box{margin-top: 5%;}
+ul.icon{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    padding-left:0;}
+.icon>li{width: 100%;text-align: center;padding-left:0;}
+.icon>li>div{height: 54px;}
+.icon>li>p{font: bold 1.4rem 'Spoqa Han Sans Neo', 'sans-serif';color:#372560 ;padding: 5%;}
+
+    /*아이콘 효과*/
+ul.icon>li:nth-child(1) div{background: url(/portfolio/kimyesol/img/icon1.png)no-repeat center center ;}
+ul.icon>li:nth-child(2) div{background: url(/portfolio/kimyesol/img/icon2.png)no-repeat center center ;}
+ul.icon>li:nth-child(3) div{background: url(/portfolio/kimyesol/img/icon3.png)no-repeat center center ;}
+ul.icon>li:nth-child(4) div{background: url(/portfolio/kimyesol/img/icon4.png)no-repeat center center ;}
+ul.icon>li:nth-child(5) div{background: url(/portfolio/kimyesol/img/icon5.png)no-repeat  center center ;}
+
+/* ul.icon>li.on:nth-child(1) div{background: url(/baskinrobbins/img/icon_iceQ_at.png)no-repeat center center ;}
+ul.icon>li.on:nth-child(2) div{background: url(/baskinrobbins/img/icon_ice_at.png)no-repeat center center ;}
+ul.icon>li.on:nth-child(3) div{background: url(/baskinrobbins/img/icon_cake_at.png)no-repeat center center ;}
+ul.icon>li.on:nth-child(4) div{background: url(/baskinrobbins/img/icon_bv_at.png)no-repeat center center ;}
+ul.icon>li.on:nth-child(5) div{background: url(/baskinrobbins/img/icon_dn_at.png)no-repeat  center center ;} */
+
+ul.icon>li.on p{color: #f16176;}
 }
